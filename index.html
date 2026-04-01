@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shafin The Tinkerer</title>
+    <!-- Modern + Retro Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@400;600&family=Teko:wght@500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Top Navbar -->
+    <nav class="top-nav">
+        <div class="logo">
+            <span class="star-icon">✨</span>
+            <span class="brand-name">ADRENALINE</span>
+            <span class="bolt-icon">⚡</span>
+        </div>
+        <div class="badges">
+            <span class="badges-text">BADGES / XP</span>
+            <span class="badges-value">0 / 0+</span>
+        </div>
+    </nav>
+
+    <div class="layout-wrapper">
+        <!-- Left Sidebar -->
+        <aside class="sidebar">
+            <div class="nav-icons">
+                <div class="nav-icon active"></div>
+                <div class="nav-icon"></div>
+                <div class="nav-icon"></div>
+            </div>
+        </aside>
+
+        <!-- Main Content area -->
+        <div class="main-content">
+            <!-- Top Section / Hero -->
+            <header id="main-header" class="hero-section">
+                <div class="hero-bg-overlay"></div>
+                <div class="hero-content">
+                    <p class="sys-msg">C:\> initialize_tinkerer_dossier.exe --target</p>
+                    <h1>SHAFIN THE TINKERER</h1>
+                    <div class="type-tags">
+                        <span class="tag electric">ELECTRIC</span> / <span class="tag fire">FIRE</span>
+                    </div>
+                    <p class="bio">
+                        <i>BIO_STATUS: "Waiting for new pokemon... or just a bigger screwdriver. I live to experiment, break
+                            things, and then (sometimes) build them back up. Don't take me too seriously." Pokemon,
+                            games, and tools.</i>
+                    </p>
+                    <p class="scroll-msg">— 'SCROLL TO DEPLOY MOVES...'</p>
+                </div>
+
+                <!-- Character Portrait goes here -->
+                <div class="character-illustration">
+                    <!-- Placeholder: Update the src below to point to the character image if you have one -->
+                    <img src="character-illustration.png" style="visibility: hidden;" alt="Character Portrait"
+                        onerror="this.style.visibility='hidden'">
+                </div>
+            </header>
+
+            <!-- Middle Section / Cards -->
+            <main class="cards-section">
+                <div class="card-column">
+                    <h2>THE LAB LOG</h2>
+                    <div class="image-card">
+                        <!-- Lab log image -->
+                        <img src="Gemini_Generated_Image_t39b8ut39b8ut39b.png" alt="Lab Log"
+                            onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'100%\' height=\'100%\'><rect width=\'100%\' height=\'100%\' fill=\'%23071b26\'/><text x=\'50%\' y=\'50%\' fill=\'white\' text-anchor=\'middle\' dy=\'.3em\' font-family=\'sans-serif\'>Missing Image</text></svg>'">
+                    </div>
+                </div>
+                <div class="card-column">
+                    <h2>FIELD NOTES</h2>
+                    <div class="image-card">
+                        <!-- Field notes image -->
+                        <img src="Gemini_Generated_Image_jz1a0ujz1a0ujz1a.png" alt="Field Notes">
+                    </div>
+                </div>
+                <div class="card-column">
+                    <h2>MATCH REPLAY</h2>
+                    <div class="image-card">
+                        <!-- Match replay image -->
+                        <img src="Gemini_Generated_Image_uk6v05uk6v05uk6v.png" alt="Match Replay"
+                            onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'100%\' height=\'100%\'><rect width=\'100%\' height=\'100%\' fill=\'%23071b26\'/><text x=\'50%\' y=\'50%\' fill=\'white\' text-anchor=\'middle\' dy=\'.3em\' font-family=\'sans-serif\'>Missing Image</text></svg>'">
+                    </div>
+                </div>
+            </main>
+
+            <!-- Bottom Section -->
+            <footer class="bottom-section">
+                <div class="trainer-card">
+                    <h2>Trainer Card</h2>
+                    <div class="stats">
+                        <div class="stat-row">
+                            <span>Curiosity</span>
+                            <span class="value">99%</span>
+                            <div class="progress-bar">
+                                <div class="fill curiosity" style="width: 99%;"></div>
+                            </div>
+                        </div>
+                        <div class="stat-row split">
+                            <div class="stat-half">
+                                <span>Destruction</span>
+                                <span class="value">85%</span>
+                                <div class="progress-bar">
+                                    <div class="fill destruction" style="width: 85%;"></div>
+                                </div>
+                            </div>
+                            <div class="stat-half">
+                                <span>Reassembly</span>
+                                <span class="value">40%</span>
+                                <div class="progress-bar">
+                                    <div class="fill reassembly" style="width: 40%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="move-panel">
+                    <h2>MOVE</h2>
+                    <div class="buttons">
+                        <button id="btn-tennis" class="btn">Tennis Serve Strike</button>
+                        <button id="btn-short-circuit" class="btn">Short Circuit</button>
+                        <button id="btn-dismantle" class="btn">Dismantle Gadget</button>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
