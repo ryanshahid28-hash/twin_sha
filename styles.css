@@ -401,3 +401,90 @@ h1, h2, p, span, .btn {
     border: 1px solid #444;
     z-index: 999;
 }
+/* --- Mobile Responsive --- */
+@media (max-width: 1200px) {
+    .hero-content {
+        max-width: 100%;
+    }
+    .character-illustration {
+        display: none;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .cards-section {
+        grid-template-columns: 1fr;
+        padding: 2rem;
+    }
+
+    .bottom-section {
+        flex-direction: column;
+        padding: 0 2rem 2rem 2rem;
+    }
+
+    .hero-section {
+        padding: 2rem;
+    }
+    
+    .sidebar {
+        width: 60px;
+    }
+    .nav-icon {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media (max-width: 768px) {
+    .layout-wrapper {
+        flex-direction: column;
+    }
+    .sidebar {
+        flex-direction: row;
+        width: 100%;
+        height: 60px;
+        padding: 0 1rem;
+        gap: 1rem;
+        align-items: center;
+        border-right: none;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+    .top-nav {
+        padding: 0.75rem 1rem;
+    }
+    .logo {
+        font-size: 1.2rem;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+
+    .cards-section, .bottom-section {
+        padding: 1.5rem;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+
+    .stat-row.split {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    .hero-section {
+        padding: 1.5rem;
+    }
+    .type-tags {
+        font-size: 1.2rem;
+    }
+    .badges-text{
+        display: none;
+    }
+}
